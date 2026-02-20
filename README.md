@@ -12,9 +12,9 @@ The raw CSV data is split into four tables:
 
 | Table | Description |
 |---|---|
-| `customers` | Customer details — name, contact, location, territory |
+| `customers` | Customer details: name, contact, location, territory |
 | `products` | Product code, product line, and MSRP |
-| `orders` | Order header — date, status, and link to customer |
+| `orders` | Order header: date, status, and link to customer |
 | `order_items` | Line items — quantity, price, sales value, deal size |
 
 `sales_setup.sql` creates the database, defines the tables with foreign keys, and loads data from CSV using `LOAD DATA LOCAL INFILE`.
