@@ -1,6 +1,6 @@
 # Sales Analysis — SQL
 
-A MySQL project built around a sample sales dataset from Kaggle. The goal was to practice writing real analytical queries — aggregations, multi-table joins, and window functions — against a normalised schema.
+A MySQL project built around a sample sales dataset from Kaggle. I analysed B2B sales data across 19 countries and 7 product lines using MySQL. I normalised a flat dataset into a relational schema, then wrote queries using aggregations, JOINs, and window functions to surface revenue trends, top customers, and product performance over time.
 
 **Dataset:** [Sample Sales Data](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data)
 
